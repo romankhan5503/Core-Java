@@ -3,7 +3,41 @@ package loops;
 public class Forloop {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		for (int i=0; i<=5; i++) {
+			System.out.println(i);
+		}
+		
+		//for even number
+		for (int i = 2; i<=20; i=i+2) {
+			System.out.println(i);
+		}
+		
+		
+		
+		//for sum of numbers
+		int sum = 0;
+		for (int i=1; i<=5; i++) {
+			sum = sum + i;
+		}
+		System.out.println(sum);
+		
+		
+		
+		//Enhanced for loop
+		int number [] = {1,2,3,4,5,6,7,8,9};
+		
+		for (int i: number) {
+			System.out.println(i);
+		}
+		
+		
+		//real life example
+		for (int i = 3; i <= 30; i+=3) {
+			System.out.println(i);
+		}
+		/*When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop
+		 */
+		 
 
 	}
 

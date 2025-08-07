@@ -26,7 +26,7 @@ there are 8 types in primitive data type:
 
 2. short (is use for more then byte number.range between is -32678 to 32767)
 
-3.int (is use for then short number. range between is 2 to the power -31 2 to power 31-1)
+3.int (is use for then short number. range between is 2 to the power -31    2 to power 31-1)
 
 4.long(is is use for more then int number.range between is 2 to the power -63 to 2 power 63-1)
 

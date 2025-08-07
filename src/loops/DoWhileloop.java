@@ -4,6 +4,7 @@ public class DoWhileloop {
 
 	public static void main(String[] args) {
 		//do while loop runs atleast once, even if the condition is false
+		int a = 1;
 		do {
 			System.out.println(a);
 			a++ ;

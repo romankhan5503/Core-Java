@@ -46,11 +46,11 @@ public class IfandElseandElseif {
 
 
 /*
-Use if (if a specified condition is true, then block of code will be executed)
+ if (if a specified condition is true, then block of code will be executed)
 
-Use else (if the same condition is false, then else statement is to be executed)
+ else (if the same condition is false, then else statement is to be executed)
 
-Use else if (if the first condition is false, then else if statement is to be executed)
+ else if (if the first condition is false, then else if statement is to be executed)
 
-Use switch (Instead of writing many if..else statements, you can use the switch statement.)
+ switch (Instead of writing many if..else statements, you can use the switch statement.)
 */
