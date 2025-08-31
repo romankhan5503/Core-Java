@@ -5,7 +5,8 @@ public class Array {
 	public static void main(String[] args) {
 		
 		//normal using array also called 1d(one dimensional) through creating object
-		int[] mrk = new int [4];
+		
+		int[] mrk = new int[4];
 		
 		mrk [0] = 1;
 		mrk [1] = 2;
@@ -20,7 +21,7 @@ public class Array {
 		
 		
 		//print single value in single line 
-		String[] srk = {"shahrukh khan"};
+		String[] srk = {"shahrukh"};
 		System.out.println(srk[0]);
 		
 		//print multiple value / Access the Elements of an Array

@@ -4,7 +4,7 @@ public class ComparisonOperator {
 
 	public static void main(String[] args) {
 		int x = 9;
-		int y = 7;
+		
 		
 		if(x == 7) {
 			System.out.println("no");

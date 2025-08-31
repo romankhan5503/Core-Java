@@ -10,6 +10,11 @@ public class TwoD {
 		int [] [] name = {{7,8,9}, {1,2,3}, {4,5,6}, {10,11,12}, {13,14,15}};
 		System.out.println(name[0][2]+" "+name [2][2]+" "+name[1][2]+" "+name[3][0]+" "+name[4][1]);
 		
+		int [][] krk = new int [4][6];
+		
+		krk [0][0] =1;
+		krk [0][1] = 2;
+		System.out.println(krk[0][0]+" "+krk[0][1]);
 		/*[0] = {1,2,3}
 		  [1] = {4,5,6}
 		  [2] = {7,8,9}

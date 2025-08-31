@@ -7,7 +7,7 @@ public class ArithmeticOperators {
 		System.out.println(result);
 		
 		int final_result= result;
-		result= result -1;
+		result= result - 1;
 		System.out.println(result);
 		
 		final_result = result;
