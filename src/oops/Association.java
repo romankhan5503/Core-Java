@@ -1,6 +1,6 @@
-package reusability;
+package oops;
 
-class B{
+class Back{
 	int x = 10;
 	
 	void show() {
@@ -11,11 +11,11 @@ class B{
 public class Association {
 
 	public static void main(String[] args) {
-		B b = new B(); //Association
+		Back b = new Back(); //Association
 		b.show();
 		
-		new B(); //Composition
-		B b1; //Aggregation
+		new Back(); //Composition
+		Back b1; //Aggregation
 
 	}
 
