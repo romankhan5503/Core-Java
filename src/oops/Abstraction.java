@@ -1,38 +1,46 @@
 package oops;
 
-abstract class A{
-	//abstract int x = 10; //it doesn't work because we cannot give it abstract onto data.
-	
-abstract void show(); //in here if we do it declaration then it shows error
-//abstract final void show(); //abstract on final not work shows error 
-//abstract private void show(); //abstract on private not work shows error
-//abstract static void show(); //abstract on static not work shows error
+abstract class Vehicle{
+	int no_of_tyres;
 
-void disp() {
-	System.out.println("disp....");
-}
-}
-
-abstract class B extends A{
-	
-}
-
-public class Abstraction extends A{
-
-	public static void main(String[] args) {
-		//A a = new A(); //cannot create an object of an abstract class
-		
-		A a; //we can create reference variable
-		Abstraction t = new Abstraction();
-		t.show();
-		t.disp();
-
+	void displayTyres() {
+		System.out.println("No. of Tyres is: " + no_of_tyres);
 	}
+	
+	abstract void start();
+}
+
+class Car extends Vehicle{
 
 	@Override
-	void show() {
-		System.out.println("show....");
+	void start() {
+		no_of_tyres = 4;
+		System.out.println("Car start with key");
+	}
+}
+
+class Scooter extends Vehicle{
+
+	@Override
+	void start() {
+		no_of_tyres = 2;
+		System.out.println("Scooter start with kick and self");
+	}
+}
+
+public class Abstraction {
+
+	public static void main(String[] args) {
+		Vehicle car = new Car();
+		car.start();
+		car.displayTyres();
 		
+		
+		Vehicle scooter = new Scooter();
+		scooter.start();
+		scooter.displayTyres();
+		
+
 	}
 
 }
